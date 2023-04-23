@@ -2,6 +2,8 @@
 ## About
 This is a SC1015 Introduction to Data Science and Artificial Intelligence mini project which address wage discrimination. 
 
+Click [here](https://youtu.be/2qixYxslC-k) to view the project presentation video.
+
 ## Practical Motivation and Problem Definition
 Income inequality, which is defined as the extent to which income is distributed in an uneven manner among a population, has been a highly discussed topic in America. This is especially so in relation to rising concerns of Racism, Sexism and Ageism, where certain races, genders and people above a certain age, are said to be unfairly paid less for the same amount of work.
 
@@ -21,11 +23,19 @@ As such, we would like to investigate the state of income inequality and to prov
 4. Decision Tree Regression
 5. Random Forest Regression
 
+## Approach 
+1. Data preparation was done to select key features that were relevant for our analysis.
+2. Data cleaning was done to remove incorrect values and null values.
+3. Exploratory data analysis was done to identify the extent of income inequality across age, gender and race. Insights were derived from analysis results.
+4. Futher data pre-processing was done to scale the data and remove outliers.
+5. Machine learning models were trained with a 80-20 train-test split. Hyperparameters were tuned to increase model accuracy. 
+
 ## Conclusion
 - Wage disparity based on Age, Gender and Race does exist in the United States
     - Wages start to decline after 50 years old even as years of experience increases
     - Females earn about 32% less than Males on average and underearn Males at all quartiles
     - White Americans earn about 35% more than Black and Hispanic Americans
+- Random Forest Regression was the best model out of the 5 models deployed.
 - Machine Learning could be used to provide a fair income benchmark based only on modifiable factors but more work needs to be done
     - More data needs to be collected and in the present to accurately reflect the current situation. Including data across a few decades, which have different socio-economic situations, may have introduced bias into the data and reduced data quality. 
     - More complex models, such as nerual networks could be employed to give more accurate predictions. 
@@ -35,10 +45,11 @@ As such, we would like to investigate the state of income inequality and to prov
 - Data cleaning and pre-processing 
 - Data visualisation with pandas, numpy, seaborn and matplotllib 
 - Various regression models with sklearn 
+- Collaborating on data science projects with Google Colab
 
 ## Contributors 
-- [Jodi Chan Xu](https://github.com/isjods)
-- [Chang Dao Zheng](https://github.com/changdaozheng)
+- [Jodi Chan Xu](https://github.com/isjods) - Problem Formulation, Data Collection, Exploratory Data Analysis, Final Insight
+- [Chang Dao Zheng](https://github.com/changdaozheng) - Data Pre-Processing, Machine Learning, Final Insights
 
 ## References
 - <https://www.kaggle.com/datasets/fedesoriano/gender-pay-gap-dataset>
