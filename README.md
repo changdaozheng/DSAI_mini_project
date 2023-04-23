@@ -12,7 +12,7 @@ As such, we would like to investigate the state of income inequality and to prov
 2. Develop a model that recommends wages based on modifiable factors, such as education, experience, industry and occupation and ignores non-modifiable factors such as age, gender and race. 
 
 ## Data Source 
-
+- [Gender Pay Gap](https://www.kaggle.com/datasets/fedesoriano/gender-pay-gap-dataset) dataset on Kaggle
 
 ## Models Used
 1. Linear Regression
@@ -35,6 +35,10 @@ As such, we would like to investigate the state of income inequality and to prov
 - Data cleaning and pre-processing 
 - Data visualisation with pandas, numpy, seaborn and matplotllib 
 - Various regression models with sklearn 
+
+## Contributors 
+- [Jodi Chan Xu](https://github.com/isjods)
+- [Chang Dao Zheng](https://github.com/changdaozheng)
 
 ## References
 - <https://www.kaggle.com/datasets/fedesoriano/gender-pay-gap-dataset>
