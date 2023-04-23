@@ -48,7 +48,7 @@ As such, we would like to investigate the state of income inequality and to prov
 - Collaborating on data science projects with Google Colab
 
 ## Contributors 
-- [Jodi Chan Xu](https://github.com/isjods) - Problem Formulation, Data Collection, Exploratory Data Analysis, Final Insight
+- [Chan Xu Jodi](https://github.com/isjods) - Problem Formulation, Data Collection, Exploratory Data Analysis, Final Insight
 - [Chang Dao Zheng](https://github.com/changdaozheng) - Data Pre-Processing, Machine Learning, Final Insights
 
 ## References
